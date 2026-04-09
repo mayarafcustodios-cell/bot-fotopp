@@ -1,3 +1,5 @@
+import os
+os.system("playwright install")
 from flask import Flask, render_template
 from threading import Thread
 import time
